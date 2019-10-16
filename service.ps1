@@ -1,1 +1,1 @@
-Get-Service -name winrm | select -ExpandProperty status
+Get-Service -name winrm | select -ExpandProperty Name
